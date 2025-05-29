@@ -1,0 +1,136 @@
+.container {
+  max-width: 700px;
+  margin: 50px auto;
+  padding: 2rem;
+  background-color: #f9fafb;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.short-container h1 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: #1f2937;
+}
+
+.short-container p {
+  font-size: 1.1rem;
+  margin-bottom: 0.5rem;
+  color: green;
+  font-weight: bold;
+}
+
+.grid-three-cols {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 1.5rem;
+}
+
+.grid-three-cols button {
+  padding: 0.6rem 1.2rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 8px;
+  background-color: #2563eb;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.grid-three-cols button:hover {
+  background-color: #1e40af;
+}
+
+.state-container h1 {
+  font-size: 2rem;
+  color: #1f2937;
+  margin-bottom: 1rem;
+}
+
+.state-container p {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #2563eb;
+  margin: 1rem 0;
+}
+
+.state-button {
+  padding: 0.6rem 1.5rem;
+  font-size: 1.1rem;
+  background-color: #2563eb;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.state-button:hover {
+  background-color: #1e3a8a;
+}
+
+/* Challnge Css */
+
+.state-container h1 {
+  font-size: 2rem;
+  color: #1f2937;
+  margin-bottom: 1rem;
+}
+
+.state-container p {
+  font-size: 1.3rem;
+  font-weight: 500;
+  color: #374151;
+  margin-bottom: 1rem;
+}
+
+.state-container span {
+  font-weight: bold;
+  color: #2563eb;
+}
+
+.state-container label {
+  font-size: 1rem;
+  color: #111827;
+}
+
+.state-container input[type="number"] {
+  margin-left: 10px;
+  padding: 0.4rem 0.8rem;
+  border: 1px solid #d1d5db;
+  border-radius: 6px;
+  font-size: 1rem;
+  width: 80px;
+}
+
+.grid-three-cols {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 1.5rem;
+  flex-wrap: wrap;
+}
+
+.grid-three-cols button {
+  padding: 0.6rem 1.2rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 6px;
+  background-color: #2563eb;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.grid-three-cols button:hover {
+  background-color: #1e3a8a;
+}
+
+.grid-three-cols button:disabled {
+  background-color: #9ca3af;
+  cursor: not-allowed;
+}

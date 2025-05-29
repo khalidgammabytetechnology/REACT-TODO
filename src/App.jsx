@@ -45,6 +45,9 @@ import { State } from "./components/Hooks/State";
 import { LiftUp } from "./components/LiftUpState";
 import { ToggleSwitch } from "./Projects/ToggleSwitch/Toggle";
 import { Todo } from "./Projects/ToggleSwitch/TODO/Todo";
+import { ShortCircuitExample } from "./components/Hooks/short";
+import { Counter } from "./components/Hooks/useState";
+import { CounterChallenge } from "./components/Hooks/useState/Challenge";
 
 export const App = () => {
  
@@ -58,7 +61,10 @@ export const App = () => {
   {/* <State/>
   <LiftUp/> */}
   {/* <ToggleSwitch/> */}
-  <Todo/>
+  {/* <Todo/> */}
+  {/* <ShortCircuitExample/> */}
+  {/* <Counter/> */}
+  <CounterChallenge/>
 </section> 
   );
 };

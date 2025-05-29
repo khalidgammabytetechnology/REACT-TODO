@@ -80,7 +80,7 @@ const handleCheckBtn = (content) => {
                 <section>
                     <button className="clear-btn" onClick={handlecleartodoData}>Clear all</button>
                 </section>
-            </section>
+                </section>            
         </>
     );
 };
