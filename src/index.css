@@ -75,10 +75,10 @@ button:focus-visible {
   --secondary-color: #fff;
   --main-color: #0062ff; 
   --supporting-color: #ebf3fe;
-  /* --heading-color: #000a19;  */
+  --heading-color: #000a19;  
 --h-color: #0a043c;
 --font-color: #424242;
-/* --bg-color: #ffffff; */
+--bg-color: #ffffff;
 --bg-color: #f2f3f4;
 --test: #070101; 
 --white-color: #ffffff; 
@@ -99,14 +99,14 @@ html{
   font-size: 62.5%;
 }
 
-h1,h2,h3,h4,h5,h6 {
-  /* color: var(--heading-color); */
-  color: #fff;
+ h1,h2,h3,h4,h5,h6 { 
+  color: var(--heading-color);
+   color: #ffff;
   font-family: "poppins", sans-serif;
   font-weight: 900;
-}
+} 
 
-/* h1 {
+h1 {
   font-size: 2.2em;
   line-height: 1.1;
 }
@@ -144,4 +144,4 @@ a{
 
 .grid-three--cols{
   grid-template-columns: repeat(3, 1fr);
-} */
+} 

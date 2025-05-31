@@ -48,6 +48,15 @@ import { Todo } from "./Projects/ToggleSwitch/TODO/Todo";
 import { ShortCircuitExample } from "./components/Hooks/short";
 import { Counter } from "./components/Hooks/useState";
 import { CounterChallenge } from "./components/Hooks/useState/Challenge";
+import ControlledForm from "./components/Hooks/useState/Controlled";
+import { RegistrationForm } from "./components/Hooks/useState/Registration";
+import { RegistrationFormReact } from "./components/Hooks/useState/RegisterFormReact";
+import { LoginForm } from "./components/Hooks/useState/LoginForm";
+import { ContactForm } from "./components/Hooks/useState/ContactForm";
+import { ReactUseEffect } from "./components/Hooks/useEffect/Index";
+import { Challenge } from "./components/Hooks/useEffect/EffectChall";
+import { CleanUp } from "./components/Hooks/useEffect/CleanUp";
+import { HoefetchApi } from "./components/Hooks/useEffect/HoeFetchAPI";
 
 export const App = () => {
  
@@ -63,8 +72,17 @@ export const App = () => {
   {/* <ToggleSwitch/> */}
   {/* <Todo/> */}
   {/* <ShortCircuitExample/> */}
-  {/* <Counter/> */}
+  {/* <Counter/>
   <CounterChallenge/>
+  <ControlledForm/> */}
+  {/* <RegistrationForm/> */}
+  {/* <RegistrationFormReact/> */}
+  {/* <LoginForm/> */}
+  {/* <ContactForm/> */}
+  {/* <ReactUseEffect/> */}
+  {/* <CleanUp/> */}
+  {/* <Challenge/> */}
+  <HoefetchApi/>
 </section> 
   );
 };
