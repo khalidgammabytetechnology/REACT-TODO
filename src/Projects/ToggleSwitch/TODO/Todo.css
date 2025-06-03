@@ -5,7 +5,7 @@
   justify-content: center;
 } */
 
-.todo-container {
+/* .todo-container {
   align-items: center;
   display: flex;
   flex-direction: column;
@@ -34,9 +34,9 @@
   font-size: 3rem;
   min-height: 25vh;
   width: 100%;
-}
+} */
 
-section h1 {
+/* section h1 {
   font-size: 4.8rem;
   text-align: center;
 }
@@ -44,24 +44,24 @@ section h1 {
 .date-time {
   font-size: 2.4rem;
   text-align: center;
-}
+} */
 
-form {
+/* form {
   display: flex;
   font-size: 1.7rem;
   justify-content: center;
   margin: 15px 0;
   padding: 0.8rem;
   width: 100%;
-}
+} */
 
-form input {
+/* form input {
   padding: 10px;
   font-size: 1.8rem;
   letter-spacing: 0.1rem;
   border: none;
   outline: none;
-  /* border-radius: 15; */
+  border-radius: 15;
   border-top-left-radius: 17px;
   border-bottom-left-radius: 17px;
   max-width: 500px;
@@ -78,14 +78,14 @@ form input:hover {
 form input::placeholder {
   color: white;
   opacity: 0.7;
-}
+} */
 
-button {
+/* button {
   border: none;
   outline: none;
   transition: box-shadow 200ms ease, background-color 200ms ease-in-out;
-  background-color: #2c3e50;
-  color: rgb(0, 0, 0);
+  background-color: #2c3e50; 
+  color: rgb(0, 0, 0); 
 }
 
 form button:hover {
@@ -112,21 +112,21 @@ span {
   justify-content: center;
   align-items: center;
   max-width: 1200px;
-}
+} */
 
-.todo-list {
-  min-width: 25%;
+/* .todo-list { */
+  /* min-width: 25%; */
 
   /* To remove the bullets of unordered list */
-  list-style: none;
-}
+  /* list-style: none; */
+/* } */
 
-.todo-item {
-  margin: 2.4rem;
+/* .todo-item {
+  margin: 2.4rem; */
   /*word-wrap: break-word;
     */ /*flex-wrap: wrap;
     */
-  font-size: 20px;
+  /* font-size: 20px;
   color: #1c2833;
   border-radius: 30px;
   transition: background-color 200ms ease-in-out;
@@ -137,13 +137,13 @@ span {
   display: grid;
   grid-template-columns: 1fr 0.3fr 0.3fr;
   justify-content: start;
-  gap: 1.6rem;
+  gap: 1.6rem; */
   /*align-items: center;
     */ /*wrapsthelinks*/
-  overflow-wrap: anywhere;
-}
+  /* overflow-wrap: anywhere;
+} */
 
-li span {
+/* li span {
   max-width: 20rem;
   color: #1c2833;
 }
@@ -192,4 +192,4 @@ li span {
 
 .clear-btn:hover {
   background-color: #8d1407;
-}
+} */

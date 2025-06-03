@@ -3,7 +3,7 @@
 // import viteLogo from '/vite.svg'
 // import './App.css'
 
-import {Fragment} from "react";
+import { Fragment } from "react";
 
 // function App() {
 //   const [count, setCount] = useState(0)
@@ -57,33 +57,52 @@ import { ReactUseEffect } from "./components/Hooks/useEffect/Index";
 import { Challenge } from "./components/Hooks/useEffect/EffectChall";
 import { CleanUp } from "./components/Hooks/useEffect/CleanUp";
 import { HoefetchApi } from "./components/Hooks/useEffect/HoeFetchAPI";
+import { UseRef } from "./components/Hooks/UseRef";
+import { UseId } from "./components/Hooks/useId";
+import { ParentComponent } from "./components/PropDrilling";
+import { BioProvider } from "./components/Hooks/ContextAPI";
+import { Home } from "./components/Hooks/ContextAPI/Home";
+import { About } from "./components/Hooks/ContextAPI/About";
+import { Servicec } from "./components/Hooks/ContextAPI/Servicec";
+import { DarkLight, ThemeProvider } from "./components/Hooks/ContextAPI/DarkLight";
 
 export const App = () => {
- 
- return(
-<section className="container">
-  {/* <h1 className={khan[`Card-Common`]}>List Of Best Netflix Series</h1> */}
-  {/* <NetflixList/>
+
+  return (
+    <section className="container">
+      <BioProvider>
+        {/* <h1 className={khan[`Card-Common`]}>List Of Best Netflix Series</h1> */}
+        {/* <NetflixList/>
   <EventHandling/> */}
-  {/* <EventProps/> */}
-  {/* <EventPropagation/> */}
-  {/* <State/>
+        {/* <EventProps/> */}
+        {/* <EventPropagation/> */}
+        {/* <State/>
   <LiftUp/> */}
-  {/* <ToggleSwitch/> */}
-  {/* <Todo/> */}
-  {/* <ShortCircuitExample/> */}
-  {/* <Counter/>
+        {/* <ToggleSwitch/> */}
+        {/* <Todo/> */}
+        {/* <ShortCircuitExample/> */}
+        {/* <Counter/>
   <CounterChallenge/>
   <ControlledForm/> */}
-  {/* <RegistrationForm/> */}
-  {/* <RegistrationFormReact/> */}
-  {/* <LoginForm/> */}
-  {/* <ContactForm/> */}
-  {/* <ReactUseEffect/> */}
-  {/* <CleanUp/> */}
-  {/* <Challenge/> */}
-  <HoefetchApi/>
-</section> 
+        {/* <RegistrationForm/> */}
+        {/* <RegistrationFormReact/> */}
+        {/* <LoginForm/> */}
+        {/* <ContactForm/> */}
+        {/* <ReactUseEffect/> */}
+        {/* <CleanUp/> */}
+        {/* <Challenge/> */}
+        {/* <HoefetchApi/> */}
+        {/* <UseRef/> */}
+        {/* <UseId/> */}
+        {/* <ParentComponent /> */}
+        <Home/>
+        <About/>
+        <Servicec/>
+      </BioProvider>
+      <ThemeProvider>
+        <DarkLight/>
+      </ThemeProvider>
+    </section>
   );
 };
 

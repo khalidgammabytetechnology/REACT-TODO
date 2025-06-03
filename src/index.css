@@ -68,9 +68,9 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 } */
- @import "tailwindcss";
+  @import "tailwindcss";
 
-:root {
+/*:root {
   --primary-color: #1c2833;
   --secondary-color: #fff;
   --main-color: #0062ff; 
@@ -144,4 +144,4 @@ a{
 
 .grid-three--cols{
   grid-template-columns: repeat(3, 1fr);
-} 
+}  */
